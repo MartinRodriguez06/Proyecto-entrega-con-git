@@ -9,76 +9,65 @@
 </head>
 <body>
     
-<header>
-    <nav class="menu">
-        <ul>
-            <li> <a href="../index.html"> Home </a> 
-             </li>
-            <li> <a href="libros.html">Libros</a> 
-              </li>
-            <li> <a href="mibiblioteca.html">Mi biblioteca</a> 
-             </li>
-            <li> <a href="contacto.html">Contacto</a>
-             </li>
-            <li> <a href="ayuda.html">Ayuda</a>
-             </li>
-            <li> <a href="#pie-de-pagina"> Ir al footer</a>
-              </li>
+
+
+<header class="container">
+    <div class="row">
+   
+  <nav class="navbar navbar-expand-lg bg-danger bg-menu col-12">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">LibreriaOnline-Libros de segunda mano</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html"> Home</a>
+          </li>
+          <li class="nav-item"> <a class="nav-link" href="libros.html">Libros</a> 
+          </li>
+          <li class="nav-item"> <a class="nav-link" href="mibiblioteca.html">Mi biblioteca</a> 
+          </li>
+         <li class="nav-item"> <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+         <li class="nav-item"> <a class="nav-link" href="ayuda.html">Ayuda</a>
+          </li>
+         <li class="nav-item"> <a class="nav-link" href="#pie-de-pagina"> Ir al footer</a>
+           </li>
         </ul>
-    </nav>
+      </div>
+    </div>
+  </nav>
+</div>
+
 </header>
 
 <div class="biblioteca">
     <h2>Mis libros</h2>
 </div>
 
-<div class="libro-caja">
-    libro1
-</div>
-
-<div class="libro-caja">
-    libro2
-</div>
-
-<div class="libro-caja">
-    libro3
-</div>
-
-<div class="libro-caja">
-    libro4
-</div>
-
-<div class="libro-caja">
-    libro5
-</div>
-
-<div class="libro-caja">
-    libro6
-</div>
-
-<div class="libro-caja">
-    libro7
-</div>
-
-<div class="libro-caja">
-    libro8
-</div>
-
-<div class="libro-caja">
-    libro9
-</div>
-
-<div class="libro-caja">
-    libro10
-</div>
-
-<div class="libro-caja">
-    libro11
-</div>
-
-<div class="libro-caja">
-    libro12
-</div>
+<div id="carouselExampleControls" class="carousel slide col-sm-8 col-md-6 col-lg-9" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../img/libro.PNG" class="d-block w-25" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../img/libro.PNG" class="d-block w-25" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../img/libro.PNG" class="d-block w-25" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
 
 <footer id="pie-de-pagina">
